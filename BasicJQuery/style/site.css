@@ -1,0 +1,10 @@
+*{
+    font-family: sans-serif;
+}
+td{
+    padding: .5ex;
+    border: thick red solid;
+}
+.fancyText{
+    font-family:monospace;
+}

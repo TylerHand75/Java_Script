@@ -1,0 +1,5 @@
+#gallery img {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}

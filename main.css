@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    outline: none;
+
+}
+header{
+    background-color: black;
+    color: white;
+}
+header h1{
+    display: inline-block;
+    text-align: center;
+    table-layout: auto;
+}
+header h2{
+    display: inline;
+}
+#logo{
+    align-content: center;
+}
+#table_2 h2{
+    display: block;
+    text-align: center;
+}
+#table_2 h1 {
+    text-align: center;
+    size: 0rem;
+}
+#table_2 p{
+    text-align: center;
+}
+#table_3 img{
+    float: right;
+}

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link href="css/jquery-ui.css" rel="stylesheet" />
+	<link href="css/jquery-ui.theme.css" rel="stylesheet"/>
+	<link href="css/jquery-ui.structure.min.css" rel="stylesheet"/>
+	<link href="css/mncs.css" rel="stylesheet" />
+
+
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+	<script src="./js/jquery.validate.js"></script>
+	<script src="./js/sample.js"></script>
+	<script src="./js/mvcsVal.js"></script>
+	<title> Valorant | Minnesota Championship Series</title>
+</head>
+<body>
+	<header><img src="./images/mncsbanner.PNG" alt="mncsbanner" ></header>
+	<div id="tabs">
+		<ul>
+			<li><a href="#personal">Personal Information</a></li>
+			<li><a href="#rank">Rank</a></li>
+			<li><a href="#agent">Agents</a></li>
+			<li><a href="#other">Start Date for Team</a></li>
+			<li><a href="#submit">Rules Acceptance</a></li>
+		</ul>
+		<div id="personal">
+			Personal Information
+			<form id="testForm0" >
+				<div class="table" >
+					<div class="row" >
+						<div class="cell">
+							<div class=" a ui-widget-content  panel">
+								<label for="validateFirstName" class="form-label">Please enter your First Name<br></label><br>
+								<input type="text" class="form-control required" id="validateFirstName" /><br />
+								<br>
+								<label for="validateLastName" class="form-label form-control-sm">Please enter your Last Name<br></label><br>
+								<input type="text" class="form-control required " id="validateLastName"  /><br>
+								<br />
+								<label for="validateGamerTag" class="form-label">Please enter your Gamer Tag<br></label><br>
+								<input type="text" class="form-control required" id="validateGamerTag"  /><br>
+								<br />
+								<label for="validateDiscordName" class="form-label">Please enter your Discord Tag<br></label><br>
+								<input type="text" class="form-control required" id="validateDiscordName"  /><br>
+								<br />
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content   panel">
+								<label for="validateTwitchName" class="form-label">Please enter your Twitch Tag<br></label><br>
+								<input type="text" class="form-control required" id="validateTwitchName" /><br>
+								<br />
+								<label for="validateEmail" class="form-label">Please enter your Email<br></label><br>
+								<input type="text" class="form-control required" id="validateEmail"  /><br>
+								<br />
+								<label for="validateAge" class="form-label">Please enter your Age<br></label><br>
+								<input type="text" class="form-control required" id="validateAge"  /><br>
+								<br />
+								<label for="validateGender" class="form-label">Please enter your Gender<br></label><br>
+								<input type="text" class="form-control required" id="validateGender" /><br>
+								<br>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content  panel">
+								<label for="validateState" class="form-label">Please enter your State <br></label><br>
+								<input type="text" class="form-control required " id="validateState"  /><br>
+								<br>
+								<label for="validateCity" class="form-label">Please enter your City<br>
+								</label><input type="text" class="form-control required" id="validateCity"  /><br>
+								<br>
+								<label for="validateZipCode" class="form-label">Please enter your Zip Code <br></label><br>
+								<input type="text" class="form-control required" id="validateZipCode" /><br>
+								<br>
+								<label for="validateTimeZone" class="form-label">Please enter your Time Zone <br></label><br>
+								<input type="text" class="form-control required" id="validateTimeZone"  /><br>
+								<br>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content  panel">
+								<label for="validateFavoriteAgent" class="form-label">Please enter your Favorite Agent<br></label><br>
+								<input type="text" class="form-control required" id="validateFavoriteAgent"  /><br>
+								<br>
+								<label for="validateFavoriteRole" class="form-label">Please enter your Favorite Role<br></label><br>
+								<input type="text" class="form-control required" id="validateFavoriteRole"  /><br>
+								<br>
+								<label for="validateFavoriteMap" class="form-label">Please enter your Favorite Map<br></label><br>
+								<input type="text" class="form-control required" id="validateFavoriteMap"  /><br>
+								<br>
+								<label for="validateFavoriteWeapon" class="form-label">Please enter your Favorite Weapon<br></label><br>
+								<input type="text" class="form-control required" id="validateFavoriteWeapon"  />
+							</div>
+						</div>
+					</div>
+					<input  class="btn btn-primary btn-lg"  type="button" value="Submit" id="tab0submit" />
+				</div>
+			</form>
+		</div>
+		<div id="rank">
+			What Rank are You Currently
+			<form id="testForm1" >
+				<div class="table">
+					<div class="row" >
+						<div class="cell" >
+							<div class=" ui-widget-content   panel ranks">
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Iron_1_Rank.png" height="200" width="200"   alt="Iron_1_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Iron_2_Rank.png" height="200" width="200"   alt="Iron_2_Rank"><br />
+								<img class="selected"src="./images/Valorant-pngs/Ranks/Iron_3_Rank.png" height="200" width="200"   alt="Iron_3_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Bronze_1_Rank.png" height="200" width="200" alt="Bronze_1_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Bronze_2_Rank.png" height="200" width="200" alt="Bronze_2_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Bronze_3_Rank.png" height="200" width="200" alt="Bronze_3_Rank"><br />
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content   panel ranks">
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Silver_1_Rank.png" height="200" width="200" alt="Silver_1_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Silver_2_Rank.png" height="200" width="200" alt="Silver_2_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Silver_3_Rank.png" height="200" width="200" alt="Silver_3_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Gold_1_Rank.png" height="200" width="200"   alt="Gold_1_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Gold_2_Rank.png" height="200" width="200"   alt="Gold_2_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Gold_3_Rank.png" height="200" width="200"   alt="Gold_3_Rank" ><br />
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content   panel ranks">
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Platinum_1_Rank.png" height="200" width="200"alt="Platinum_1_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Platinum_2_Rank.png" height="200" width="200"alt="Platinum_2_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Platinum_3_Rank.png" height="200" width="200"alt="Platinum_3_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Diamond_1_Rank.png" height="200" width="200" alt="Diamond_1_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Diamond_2_Rank.png" height="200" width="200" alt="Diamond_2_Rank"><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Diamond_3_Rank.png" height="200" width="200" alt="Diamond_3_Rank"><br />
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content  panel ranks">
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Ascendant_1_Rank.png" height="200" width="200" alt="Ascendant_1_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Ascendant_2_Rank.png" height="200" width="200" alt="Ascendant_2_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Ascendant_3_Rank.png" height="200" width="200"  alt="Ascendant_3_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Immortal_1_Rank.png" height="200" width="200"   alt="Immortal_1_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Immortal_2_Rank.png" height="200" width="200"   alt="Immortal_2_Rank" ><br />
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Immortal_3_Rank.png" height="200" width="200"   alt="Immortal_3_Rank" ><br />
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content   panel ranks">
+								<img class="selected" src="./images/Valorant-pngs/Ranks/Radiant_Rank.png" height="200"width="200"  alt="Radiant_Rank"><br />
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div id="agent">
+			Agent Proficiency
+			<form id="testForm2">
+				<div class="table">
+					<div class="row">
+						<div class="cell">
+							<div class=" ui-widget-content  panel agents duelist">
+								<p>Jett</p>
+								<img src="./images/Valorant-pngs/agents/Jett_icon.webp" alt="Jett">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Jett" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Neon</p>
+								<img src="./images/Valorant-pngs/agents/Neon_icon.webp" alt="Neon">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Neon" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Raze</p>
+								<img src="./images/Valorant-pngs/agents/Raze_icon.webp" alt="Raze">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Raze" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Reyna</p>
+								<img src="./images/Valorant-pngs/agents/Reyna_icon.webp" alt="Reyna">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Reyna" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Phoenix</p>
+								<img src="./images/Valorant-pngs/agents/Phoenix_icon.webp" alt="Phoenix">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Phoenix" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Yoru</p>
+								<img src="./images/Valorant-pngs/agents/Yoru_icon.webp" alt="Yoru">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Yoru" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content  panel agents initiator">
+								<p>Breach</p>
+								<img src="./images/Valorant-pngs/agents/Breach_icon.webp" alt="Breach">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Breach" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Fade</p>
+								<img src="./images/Valorant-pngs/agents/Fade_icon.webp" alt="Fade">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Fade" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<P>Kayo</P>
+								<img src="./images/Valorant-pngs/agents/KAYO_icon.webp" alt="KAYO">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="KAYO" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Skye</p>
+								<img src="./images/Valorant-pngs/agents/Skye_icon.webp" alt="Skye">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Skye" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								 <p>Sova</p>
+								<img src="./images/Valorant-pngs/agents/Sova_icon.webp" alt="Sova">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Sova" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content  panel agents contollers">
+								<p>Astra</p>
+								<img src="./images/Valorant-pngs/agents/Astra_icon.webp"  alt="Astra">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Astra" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Brimstone</p>
+								<img src="./images/Valorant-pngs/agents/Brimstone_icon.webp" alt="Brimstone">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Brimstone" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Harbor</p>
+								<img src="./images/Valorant-pngs/agents/Harbor_icon.webp" alt="Harbor" height="256"width="256">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Harbor" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Omen</p>
+								<img src="./images/Valorant-pngs/agents/Omen_icon.webp"  alt="Omen">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Omen" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Viper</p>
+								<img src="./images/Valorant-pngs/agents/Viper_icon.webp"  alt="Viper">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required" id="Viper" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="  ui-widget-content   panel agents sentinal" >
+								<p>Chamber</p>
+								<img src="./images/Valorant-pngs/agents/Chamber_icon.webp" height="256"width="256"  alt="Chamber">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required"  id="Chamber" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Cypher</p>
+								<img src="./images/Valorant-pngs/agents/Cypher_icon.webp"  alt="Cypher">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required"  id="Cypher" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Killjoy</p>
+								<img src="./images/Valorant-pngs/agents/Killjoy_icon.webp"  alt="Killjoy">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required"  id="Killjoy" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<p>Sage</p>
+								<img src="./images/Valorant-pngs/agents/Sage_icon.webp"  alt="Sage">
+								<div class="rating">
+									<p class="label">Scale of 1 to 5 How good are you at this agent</p>
+									<div class="input-group mb-3">
+										<select class="form-select required"  id="Sage" aria-label="Agent proficiency select">
+											<option selected>Choose...</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+											<option value="4">Four</option>
+											<option value="5">Five</option>
+										</select>
+									</div>
+								</div>
+								<br>
+							</div>
+							<input class="btn btn-primary" type="button" value="Submit" id="tab2submit" />
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div id="other">
+			Date you Can Start With a Team
+			<form id="testForm3">
+				<div class="table">
+					<div class="row">
+						<div class="cell">
+							<div class="panel">
+							<input class="dateExample required" type="text"  title="Enter something" /><br />
+								<br>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="panel">
+								<label for="validateGunCost"> What is the price of a Vandal or Phantom?</label><br>
+								<input type="number" class="form-control required" id="validateGunCost"  /><br>
+								<label for="validateShieldCost"> What is the price of Heavy or Light Shields?</label><br>
+								<input type="number" class="form-control required" id="validateShieldCost"  /><br>
+								<input  class="valorantmath" type="button"  value="Calculate"  />
+								<br>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="panel">
+								<label for="validateGun2Cost"> What is the price of an Operator?</label><br>
+								<input type="number" class="form-control required" id="validateGun2Cost"  /><br>
+								<label for="validateShield2Cost">What is the price of Heavy or Light Shields?</label><br>
+								<input type="number" class="form-control required" id="validateShield2Cost"  /><br>
+								<input  class="valorantmath2" type="button"  value="Calculate"  />
+								<br>
+							</div>
+						</div>
+						<div class="cell">
+							<div class="panel">
+								<label for="validateGunCost"> What is the price of a Specter?</label><br>
+								<label for="validateGun3Cost"></label>
+								<input type="number" class="form-control required" id="validateGun3Cost"  /><br>
+								<label for="validateShield3Cost"> What is the price of Heavy or Light Shields?</label><br>
+								<input type="number" class="form-control required" id="validateShield3Cost"  /><br>
+								<input  class="valorantmath3" type="button"  value="Calculate"  />
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<input class="btn btn-primary" type="button" value="Submit" id="tab3submit" />
+			</form>
+		</div>
+		<div id="submit">
+			Rules Acceptance
+			<br>
+			<form id="testForm4">
+				<div>
+					<p>
+						<h1>MINNESOTA CHAMPIONSHIP SERIES VALORANT COMMUNITY AND TOURNAMENT GUIDELINES</h1>
+						Authored by the MNCS Team of Commissioners
+						PFunk_    EcoFriendly    CaptnS    Isodor
+						<h2>Section 1 - Technical Timeouts</h2>
+						1.a. A technical timeout may be called upon the following conditions;
+						PC and/or peripheral malfunction
+						VALORANT crashing or otherwise software locking
+						Peripherals dying or disconnecting
+						Voice chat disabling or disconnecting
+						Any other software or hardware malfunction which demonstrably inhibits the ability to play VALORANT competitively, by the judgment of tournament moderators
+						Production errors and or faults
+						At the tournament moderators discretion
+						1.b. A technical timeout may not be called for the following reasons;
+						Wardrobe malfunction or adjustment
+						Music players not working
+						Bathroom breaks
+						No reason
+						To use as a tactical timeout
+						1.c. Repeated violation of rule 1.b. will result in ramifications up to and including event suspension being imposed.
+					<p>
+						<h2> Section 2 - Tactical Timeouts</h2>
+						2.a. Each team is allotted one tactical timeout per half. Additionally, each team is also allotted one tactical timeout in overtime. These tactical timeouts are a feature of custom games as played in tournament mode.
+					<p>
+						<h2> Section 3 - Roster and Substitutions</h2>
+						3.a. A player is considered to be a valid player if they meet the following criteria;
+						The player is at least 15 years of age
+						If the player is not 15 years of age, they have a valid chaperone and are representing a school
+						3.b. During play, the roster must contain at least 3 members of the starting roster. If 3 members of the starting roster are unable to play, refer to Section 5.
+						3.c. A player is considered to be a valid substitute if their rank is lower than the highest ranked player of the starting roster, and they comply with rule 3.a.
+						3.d. Rule 3.c. Can be ignored if the player is a tactical substitute, i.e. a player who only plays certain agents, certain maps, etc. Tactical substitutes still must comply with rule 3.a.
+					<p>
+						<h2> Section 4 - Coaches</h2>
+						4.a. Coaches are allowed to directly communicate with their team during the following periods of the match;
+						The buy phase of round one and round thirteen
+						Tactical timeouts
+						4.b. Coaches may choose to communicate with their team via in-game chat, discord or any other third party voice chat service, and/or speaking directly to the players. However, it is the players and the coach(es) responsibility to monitor the time given for the coaches to speak.
+						4.c. Coaches may interact with players nonverbal in order to boost morale (fist bumps, encouraging thumbs up, etc.). If it is found that a coach is deliberately communicating information to their players while not in a sanctioned time period as outlined in rule 4.a., depending on the severity, immediate event suspension will be imposed.
+					<p>
+						<h2> Section 5 - Match Tardiness</h2>
+						5.a. All teams are expected to comply with the posted schedule for the event they are attending.
+						5.b. If a team is late to their scheduled game by 30 minutes, that team forfeits the first map of their BO3. Additionally, being 60 minutes late forfeits the entire BO3.
+						5.c. A player is considered present if the following criteria are met;
+						The player is physically present on the premises of the event,
+						The player is conscious and aware,
+						The player is cooperative with tournament moderators and staff,
+						The player is acting to become able to play in a reasonable and timely manner.
+
+						As such, a player does not have to be in game and immediately ready to play to consider a team on time, but rather at the venue with the means and will to play.
+						5.d. The only exceptions to rule 5.c. Involve circumstances beyond the reasonable foresight or control of the player. Simply being late does not constitute an exception to 5.c.
+						5.e. If both teams are deemed late, then both teams will forfeit the match, regardless of the amount of players each team has present.
+					<p>
+						<h2> 	Section 6 - Picks and Bans</h2>
+						6.a. A coin will be flipped to determine which team chooses whether they pick first or second.
+						6.b. Picks and bans will go in this order;
+						Team 1 Bans one map
+						Team 2 Bans one map
+						Team 1 Picks one map, Team 2 Picks attack or defense
+						Team 2 Picks one map, Team 1 Picks attack or defense
+						Team 1 Bans one map
+						Team 2 Bans one map
+						Final map remains, Team 1 Picks attack or defense
+						6.c. Teams are expected to submit the Picks and Bans in order, for the purpose of stats collection.
+					<p>
+						<h2> Section 7 - Sportsmanship</h2>
+						7.a. Excessive taunting, BM, etc. is not encouraged, and moderators may approach any player to request said behavior be reduced. If this request is not heeded, ramifications up to and including event suspension will be imposed.
+						7.b. Offensive remarks aimed at or involving racism, sexism, LGBTQ+, etc. will not be tolerated. If it is deemed that said remarks were spoken with a direct intent to do harm to others, immediate event suspension will be imposed.
+						7.c. Intense verbal and/or physical altercation is heavily discouraged at any MNCS event. If two or more players are deemed to be a hindrance to the safe, effective and sportsmanlike running of the event, especially after moderator intervention, all involved players will be asked to remove themselves until the matter can be resolved outside the venue of the tournament. If the players return and the issue has still not been resolved, immediate event suspension will be imposed.
+						7.d. If repeated verbal altercation occurs during a map, the map will be paused and the issue will be resolved before play is resumed. If the issue cannot be resolved within 15 minutes and/or a player is suspended from the event, moderators will judge who wins the map by forfeit.
+						7.e. All players must give some form of salutation (handshake, fist bump, elbow bump, etc.) to every player of the other team they are facing before and after their BO3. Repeated and intentional failure to do so will result in a single BO3 suspension.
+					<p>
+						<h2>   Section 8 - Co-Streaming</h2>
+						8.a. Co-Streaming is always encouraged with MNCS events, whether they be official or unofficial.
+						8.b. Streaming your own perspective as a player is always encouraged with MNCS events. However, the player must not read chat or otherwise receive alerts or notifications from their stream.
+						8.c. All Co-Streams, Including self-perspective streams, must have a set stream delay of 120 seconds or more.
+						8.d. All Co-Streams are requested to contain reference to MNCS, and the event being streamed, whether that be as a stream title, overlay, or both.
+					<p>
+						<h2> Section 9 - Legal Equipment</h2>
+						9.a. No peripheral or external software may use automated macros, i.e. allowing a jett to perfectly time her dash every time with two button presses programmed to one.
+						9.b. No external software may interfere with VALORANT or its competitive integrity.
+						9.c. if it is found that sections 9.a or 9.b are violated, ramifications up to and including event suspension will be imposed.
+					<br>
+					<br>
+					<input type="checkbox" id="accept" name="accept" value="accept" class="required">
+					<label for="accept">I accept the rules</label>
+					<br>
+				</div>
+				<div class="modal-footer">
+					<p>Please Sign your name </p>
+					<input type="text" class="required" title="Enter something" /><br />
+					<input class="btn btn-primary" type="button" value="Submit" id="tab4submit" />
+				</div>
+			</form>
+		</div>
+		<div id="confirm">
+			<h3>Are you sure?</h3>
+			<p>By submitting this form, you are certifying that the information you provided is true and complete.
+			</p>
+		</div>
+	</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<img src="./images/images/mncsd_footer.JPG" alt="mncsfooter"  />
+				<p class="text-center"> © 2022 MNCS. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

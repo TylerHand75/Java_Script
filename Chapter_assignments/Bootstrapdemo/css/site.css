@@ -1,0 +1,24 @@
+h1{
+    font-weight: bold;
+}
+
+
+.h1{
+    font-variant:small-caps;
+    color: blueviolet;
+}
+h2{
+    background-color: chartreuse;
+}
+h3{
+    background-color: salmon;
+}
+h4{
+    background-color: seagreen;
+}
+h5{
+    background-color: peru;
+}
+h5{
+    background-color: aquamarine;
+}

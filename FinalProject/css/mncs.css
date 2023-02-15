@@ -1,0 +1,254 @@
+* {
+	outline: none;
+
+}
+
+body {
+	font-family: poppins-semibold,poppins,sans-serif;
+	height: 2000px;
+
+}
+.ui-tabs{
+	color: white;
+}
+
+.ui-widget {
+	padding: 15px;
+
+
+}
+
+.ui-widget-content{
+	border: 1px solid white;
+
+}
+label{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.ui-button {
+	background-color: #0c0c0c;
+	border-radius: 0px;
+	color: white;
+}
+.ui-state-active{
+	background-color: white;
+	border-color: black;
+	
+	width: 300px;
+}
+div.cell{
+	display: table-cell;
+	padding: 10px;size: auto;
+	align-content: center;
+	background-color: black;
+	color: white;
+}
+.table{
+	display: table;
+	align-content: center;
+}
+.row{
+	display: table-row;
+	margin: 5px;
+	align-content: center;
+}
+.panel{
+	padding: 1em;
+	width: 300px;
+	margin: 0 auto;
+	align-content: center;
+}
+.panel input{
+	align-content: center;
+	width: 290px;
+}
+.tab2submit{
+ position: relative;
+}
+.tab2submit input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.tab2submit img {
+	width: 100%;
+	height: 100%;
+}
+
+ui.btn{
+	background-color : #1a8bb9 !important;
+}
+#tab0submit{
+	background-color: #1a8bb9;
+}
+input.btn{
+	background-color: #1a8bb9;
+}
+
+.ui-selectmenu-button.ui-button{
+	width:12em;
+}
+.hover{
+	background-color: #1a8bb9;
+}
+#testForm3.cell{
+	background-color: White;
+
+}
+@media only screen and (max-width: 950px) {
+	#nav_menu ul li a {
+		font-size: .875em;
+	}
+	section h1 {
+		font-size: 1.5em;
+	}
+	section h2, aside h2 {
+		font-size: 1.125em;
+	}
+	section img{
+		display: block;
+		float: none;
+	}
+	section h2 {
+		display: block;
+		float: none;
+	}
+	div.cell {
+		display: block;
+		float: none;
+	}
+
+}
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: block;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+	}
+	main {
+		flex-direction: column;
+	}
+	header {
+		display: flex;
+		text-align: center;
+	}
+	header, footer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	footer p { margin-right: 0;
+	}
+	header h2, header h3 {
+		flex-basis: 100%;
+	}
+	header h2 {
+		font-size: 1em;
+		margin-left: 0;
+	}
+	header h3 {
+		font-size: 1em;
+		margin-left: 0;
+	}
+	header img {
+		float: none;
+		margin-left: 0;
+		margin-bottom: 1em;
+		width: auto;
+		height: auto;
+	}
+	section {
+		order: 1;
+	}
+	section {
+		width: 95%;
+		margin-right: 2%;
+		padding-right: 0;
+	}
+	aside {
+		order: 2;
+		width: 91.9192%;
+		margin: 0 2.0202% 2.0202% 2.0202%;
+	}
+	img{
+		max-width: 500px;
+	}
+
+	footer ul{
+		margin-left:30px;
+
+	}
+	footer li{
+		margin-left:10px;
+
+	}
+	div.cell {
+		display: block;
+		float: none;
+	}
+}
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 565px) {
+
+	header h2 {
+		font-size: 1.375em;
+		max-width: 100%;
+		display: flex;
+	}
+
+	header h3 {
+		font-size: .8125em;
+	}
+
+	header img {
+		width: auto;
+		height: auto;
+	}
+
+	p {
+		font-size: .875em;
+	}
+
+	section h1, section h2, aside h2 {
+		font-size: 1em;
+	}
+
+	section li {
+		font-size: .875em;
+	}
+
+	aside h3 {
+		font-size: .9375em;
+	}
+
+	footer p {
+		font-size: .6875em;
+	}
+
+	img {
+		max-width: 300px;
+	}
+
+	#socal_menu {
+		display: block;
+	}
+
+	img {
+		margin: 0%;
+	}
+	div.cell {
+		display: block;
+		float: none;
+	}
+}
+

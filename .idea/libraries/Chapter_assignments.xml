@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Chapter_assignments">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/The_3_book_assignments.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/Faq_tyler_hand.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/11-8-inclasslabs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/Dialog_button.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/Helloworld.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/ToolTips.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter_assignments/Accordion.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
